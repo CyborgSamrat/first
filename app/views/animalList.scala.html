@@ -1,0 +1,10 @@
+@(anims: List[Animal])
+
+    <dl>
+        @for(animal <- anims){
+        <dt>@animal.name</dt>
+        <dd>@animal.age </dd>
+        <dd>@animal.description</dd>
+        <dd>@animal.color</dd>
+        }
+    </dl>
