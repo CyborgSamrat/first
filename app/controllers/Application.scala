@@ -9,7 +9,7 @@ import play.api.mvc._
 object Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index("Hello Samrat!!!"))
+    Ok(views.html.index("Hello Samrat!!! hello hello"))
   }
 
   def list = Action {
